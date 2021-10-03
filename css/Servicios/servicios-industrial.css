@@ -1,0 +1,82 @@
+.vigi-industrial-info{
+
+    justify-content: space-between;
+    display: flex;
+}
+
+.vigi-industrial-titulo{
+
+    font-size: 45px;
+    font-weight: 800;
+    border-bottom: 4px solid var(--mostaza-color);
+    display: inline-block;
+
+}
+
+.vigi-industrial-text{
+    padding: 80px 100px;
+    
+}
+
+.texto-industrial{
+    padding-top: 20px;
+    text-align: justify;
+    color: var(--azul-oscuro);
+}
+
+.vigi-industrial-text h1{
+    margin: 0;
+    color: var(--azul-oscuro);
+}
+
+.vigi-industrial-img{
+    
+    padding: 120px 80px;
+
+}
+
+.img-industrial{
+    width: 600px;
+    height: 320px;
+}
+
+@media (max-width: 900px) {
+    .vigi-industrial-info{
+
+        
+        display: block;
+    }
+    
+    .vigi-industrial-titulo{
+        font-size: 40px;
+        font-weight: 800;
+        border-bottom: 4px solid var(--mostaza-color);
+        display: inline-block;
+    }
+    
+    .vigi-industrial-text{
+        padding: 40px 30px;
+        
+    }
+
+    .texto-industrial{
+        padding-top: 45px;
+      
+    }
+    
+    .vigi-industrial-text h1{
+        margin: 0;
+    }
+    
+    .vigi-industrial-img{
+        
+        padding: 10px 10px;
+        text-align: center;
+    
+    }
+    
+    .img-industrial{
+        width: 350px;
+        height: 350px;
+    }
+}

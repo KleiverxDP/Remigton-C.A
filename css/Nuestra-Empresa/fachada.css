@@ -1,0 +1,76 @@
+p{
+ padding: 0;
+ margin: 0;
+}
+
+
+
+.fachada-img{
+    background: url(/img/Nuestra-Empresa/fondo-fachada12.jpg) no-repeat center/cover; 
+    background-attachment:fixed;
+    width: 100%;
+    height: 50vh;
+    background-size: 150%;
+    animation: movimiento 15s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    } to{
+        background-position: top right;
+    }
+}
+
+.fachada-eslogan{
+    background-color: var(--azul-oscuro);
+}
+.fachada-eslogan h1{
+
+    margin: 0;
+    padding: 7px 0;
+    text-align: center;
+    
+    
+}
+
+.titulo-fachada{
+    
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.linea{
+
+   
+    width: 100%;
+    height: 10px;
+    background-color: #E3A000;
+}
+
+@media (max-width: 900px) {
+
+    .fachada-img{
+        background: url(/img/Nuestra-Empresa/fondo-fachada12.jpg) no-repeat center/cover; 
+        background-attachment:fixed;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .fachada-eslogan h1{
+
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+          
+    }
+
+    .titulo-fachada{
+
+        color: #fff;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    
+}

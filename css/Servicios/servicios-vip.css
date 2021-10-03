@@ -1,0 +1,86 @@
+.fondo-vigi-vip{
+    background: url(/img/Servicios/04.bg-vigilanciavip.png) no-repeat center/cover;
+    background-attachment: fixed;
+   
+}
+
+.vigi-vip-info{
+
+    justify-content: space-between;
+    display: flex;
+}
+
+.vigi-vip-titulo{
+    font-size: 45px;
+    font-weight: 800;
+    border-bottom: 4px solid var(--mostaza-color);
+    display: inline-block;
+}
+
+.vigi-vip-text{
+    padding: 80px 90px;
+    
+}
+
+.texto-vip{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.vigi-vip-text h1{
+    margin: 0;
+}
+
+.vigi-vip-img{
+    
+    padding: 120px 80px;
+
+}
+
+.img-vip{
+    width: 600px;
+    height: 320px;
+}
+
+@media (max-width: 900px) {
+
+    .vigi-vip-info{
+
+        justify-content: center;
+        display: block;
+    }
+    
+    .vigi-vip-titulo{
+        font-size: 40px;
+        font-weight: 800;
+        border-bottom: 4px solid var(--mostaza-color);
+        display: inline-block;
+    }
+    
+    .vigi-vip-text{
+        padding: 60px 40px;
+        
+    }
+
+    .texto-bancaria{
+        padding-top: 45px;
+        
+    }
+    
+    .vigi-vip-text h1{
+        margin: 0;
+    }
+    
+    .vigi-vip-img{
+        
+        padding: 40px 10px;
+        text-align: center;
+    }
+    
+    .img-vip{
+        width: 350px;
+        height: 350px;
+    }
+
+
+}

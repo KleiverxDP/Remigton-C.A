@@ -1,0 +1,89 @@
+.fondo-footer-second{
+    background-color: #00030C;
+}
+
+
+
+.footer-second-info{
+    /*justify-content: space-between;*/
+    display: flex;
+    text-align: center;
+   
+}
+
+
+.footer-second-info div {
+    text-align: center;
+}
+
+.footer-second-img-by{
+
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 60px;
+}
+.footer-second-img-by img{
+    height: 30px;
+}
+
+.footer-second-img-logo{
+    padding-top: 5px;
+    padding-left: 0;
+    padding-right: 70px;
+     
+}
+
+.footer-second-img-logo img{
+
+    height: 50px;
+}
+
+.footer-second-img-año{
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 80px;
+}
+
+.footer-second-img-año img{
+
+    height: 30px;
+}
+
+@media (max-width: 900px) {
+
+    .footer-second-img-by{
+
+        padding-top: 17px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    .footer-second-img-by img{
+        height: 22px;
+    }
+    
+    .footer-second-img-logo{
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 20px;
+         
+    }
+    
+    .footer-second-img-logo img{
+    
+        height: 35px;
+    }
+    
+    .footer-second-img-año{
+        padding-top: 17px;
+        padding-left: 5px;
+        padding-right: 0px;
+       
+    }
+    
+    .footer-second-img-año img{
+    
+        
+        height: 22px;
+    }
+
+}

@@ -1,0 +1,199 @@
+.topheader{
+    position: fixed;
+    box-shadow: 0 1px 2px var(--gris-color);
+    background-color: var(--blanco-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.topnav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
+
+.logo{
+
+    display:flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.logo img{
+
+    
+    height: 60px;
+    width: 280px;
+    padding: 0 30px;
+}
+
+.menu{
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu li{
+
+
+    padding: 0 30px;
+    
+}
+
+.menu a{
+    color: var(--azul-oscuro);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 80px;
+    
+}
+
+.open-menu, .close-menu{
+
+    display: none;
+}
+
+.indicador{
+
+    position: relative;
+    padding: 6px;
+}
+.indicador:hover{
+
+    color: var(--azul-claro);
+}
+
+.indicador::after{
+
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #E3A000;
+    position: absolute;
+    bottom: 0;
+    right: 70%;
+    transition: all 0.5s;
+    will-change: width;
+}
+
+.indicador:hover::after{
+
+    width: 100%;
+    right: 0;
+    
+    
+}
+
+@media (max-width: 900px) {
+
+  
+    .logo img{
+
+
+        height: 60px;
+        width: 250px;
+        padding: 5px 8px;
+        
+    }
+    
+    .menu{
+    
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        background: url(/img/fondo-menu.jpg) no-repeat center/cover;
+        background-attachment:fixed;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        
+        
+    }
+    
+    .menu li{
+    
+    
+        padding: 0;
+    }
+    
+    .menu a{
+    
+        
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 100px;
+        color: var(--blanco-color);
+    }
+    
+   
+    .open-menu, .close-menu{
+    
+        display: block; 
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .close-menu{
+        align-self: flex-end;
+        padding: 10px 5px;
+        
+        
+    }
+
+   
+    
+    .menu_opened{
+        
+        opacity: 1;
+        pointer-events: all;
+
+    }
+
+    .indicador{
+
+        position: relative;
+        padding: 6px;
+    }
+    .indicador:hover{
+    
+        color: var(--gris-color);
+    }
+    
+    .indicador::after{
+    
+        content: "";
+        width: 0;
+        height: 4px;
+        background-color: #FFC200;
+        position: absolute;
+        bottom: 0;
+        right: 70%;
+        transition: all 0.5s;
+        will-change: width;
+    }
+    
+    .indicador:hover::after{
+    
+        width: 100%;
+        right: 0;
+        
+        
+    }
+}

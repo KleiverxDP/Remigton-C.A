@@ -1,0 +1,103 @@
+.fondo-mision-vision{
+    background: url(/img/Nuestra-Empresa/fondo-mision-vision.jpg) no-repeat center/cover;
+    
+}
+
+.mision-vision-info{
+    display: flex;
+    color: var(--azul-oscuro);
+    padding: 60px 60px;
+    text-align: center;
+    
+}
+
+
+.mision-card{
+    background-color: #FFF;
+    margin: 0 50px;
+    border-radius: 10px;
+    padding: 60px 30px;
+    
+}
+
+.vision-card{
+    background-color: #FFF;
+    margin: 0 50px;
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+
+.titulo-mision-vision{
+
+    color: var(--azul-oscuro);
+    border-bottom: 3px solid var(--mostaza-color);
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.mision-vision-img img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.mision-vision-text{
+    text-align: justify;
+    margin: 0 30px;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+
+    .mision-vision-info{
+        display: block;
+        color: var(--azul-oscuro);
+        padding: 30px 10px;
+        text-align: center;
+        
+    }
+    
+    
+    .mision-card{
+        background-color: #FFF;
+        margin: 40px 50px;
+        border-radius: 10px;
+        padding: 60px 15px;
+        
+    }
+    
+    .vision-card{
+        background-color: #FFF;
+        margin: 30px 50px;
+        border-radius: 10px;
+        padding: 60px 15px;
+    }
+    
+    .titulo-mision-vision{
+    
+        color: var(--azul-oscuro);
+        border-bottom: 3px solid var(--mostaza-color);
+        display: inline-block;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    
+    
+    .mision-vision-img img{
+    
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    
+    }
+    .mision-vision-text{
+        text-align: justify;
+        margin: 0 20px;
+        line-height: 1.5;
+    }
+
+}
+

@@ -1,0 +1,32 @@
+.eslogan{
+
+    background-color: var(--mostaza-color);
+
+}
+
+.eslogan h2{
+    margin: 0;
+}
+
+.eslogan-text{
+    
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+  
+    
+    .eslogan h2{
+        margin: 0;
+    }
+    
+    .eslogan-text{
+        
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+}

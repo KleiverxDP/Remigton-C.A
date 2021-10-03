@@ -1,0 +1,86 @@
+
+
+.vigi-comercial-info{
+
+    justify-content: space-between;
+    display: flex;
+}
+
+.vigi-comercial-titulo{
+
+    
+    font-size: 45px;
+    font-weight: 800;
+    border-bottom: 4px solid var(--mostaza-color);
+    display: inline-block;
+}
+
+.texto-comercial{
+    padding-top: 20px;
+    text-align: justify;
+    color: var(--azul-oscuro);
+}
+
+.vigi-comercial-text{
+    padding: 80px 100px;
+    
+}
+
+.vigi-comercial-text h1{
+    margin: 0;
+    color: var(--azul-oscuro);
+    
+}
+
+.vigi-comercial-img{
+    
+    padding: 120px 80px;
+
+}
+
+.img-comercial{
+    width: 600px;
+    height: 320px;
+}
+
+@media (max-width: 900px) {
+
+    .vigi-comercial-info{
+
+        display: block;
+    }
+    
+    .vigi-comercial-titulo{
+        font-size: 40px;
+        font-weight: 800;
+        border-bottom: 4px solid var(--mostaza-color);
+        display: inline-block;
+    }
+    
+    .vigi-comercial-text{
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .texto-comercial{
+        padding-top: 45px;
+       
+    }
+    
+    .vigi-comercial-text h1{
+        margin: 0;
+    }
+    
+    .vigi-comercial-img{
+
+        padding: 0px 10px;
+        padding-top: 30px;
+        text-align: center;
+    
+    }
+    
+    .img-comercial{
+        width: 350px;
+        height: 350px;
+    }
+}

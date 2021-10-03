@@ -1,0 +1,61 @@
+.fondo-servicios{
+    background: url(/img/Servicios/04.bg-servicios.png) no-repeat center/cover;
+    background-attachment: fixed;
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    } to{
+        background-position: top right;
+    }
+}
+
+.servicios-info{
+    text-align: center;
+    padding-top: 100px;
+}
+.servicios-info h1{
+    margin: 0;
+    
+}
+.servicios-titulo {
+    
+    font-size: 80px;
+    font-weight: 900;
+    border-bottom: 3px solid var(--mostaza-color);
+    display: inline;
+
+}
+
+.servicio-text{
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+.servicio-text p{
+    font-size: 20px;
+}
+
+@media (max-width: 900px){
+
+    .servicios-info{
+        text-align: center;
+        padding-top: 100px;
+    }
+   
+    .servicios-titulo {
+        
+        font-size: 55px;
+        font-weight: 900;
+        border-bottom: 3px solid var(--mostaza-color);
+        display: inline;
+    
+    }
+    
+    .servicio-text{
+        padding:55px;
+        
+    }
+}

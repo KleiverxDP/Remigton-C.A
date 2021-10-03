@@ -1,0 +1,33 @@
+.servicios-frase2{
+
+    background-color: var(--mostaza-color);
+    
+    }
+    
+    .servicios-frase2-text{
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .servicios-frase2-text h2{
+        margin: 0;
+        font-weight: 800;
+    }
+    
+    @media (max-width: 900px){
+        .servicios-frase2{
+    
+            background-color: var(--mostaza-color);
+            
+            }
+            
+            .servicios-frase-text2{
+                text-align: center;
+                font-size: 20px;
+                
+            }
+            .servicios-frase2-text h2{
+                margin: 0;
+                font-weight: 700;
+            }
+    }

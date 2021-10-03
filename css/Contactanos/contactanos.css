@@ -1,0 +1,74 @@
+.fondo-contactanos{
+    background: url(/img/Contactanos/05.bg.png) no-repeat center/cover;
+    background-attachment: fixed;
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    } to{
+        background-position: top right;
+    }
+}
+.contactanos-info{
+    text-align: center;
+    padding-top: 40px;
+}
+.contactanos-info h1{
+    margin: 0;
+    
+}
+.contactanos-titulo {
+    
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 900;
+   
+}
+
+.contactanos-text {
+    
+    font-size: 25px;
+}
+
+.contactanos-img img{
+
+    width: 320px;
+    height: 350px;
+
+}
+
+.contactanos{
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 900px){
+
+    .contactanos-info{
+        text-align: center;
+        padding-top: 100px;
+    }
+   
+    .contactanos-titulo {
+        
+        font-size: 40px;
+        font-weight: 900;
+      
+    }
+
+    .contactanos-img img{
+
+        width: 250px;
+        height: 280px;
+    
+    }
+    
+    
+    .contactanos-text{
+        padding-top: 10px;
+        padding-bottom: 40px;
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,97 @@
+.bar-redes{
+    position:absolute;
+    top:40%;
+    z-index: 100;
+    left: 0px;
+    height: 0px;
+    
+}
+
+#instagram img{
+    background: #E3A000;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 40px;
+    transition: all .4s ease;
+}
+#instagram img:hover{
+    background: #FFC200;
+    padding: 12px 12px;
+    
+}
+
+#whatsapp img{
+    background: #E3A000;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 40px;
+    transition: all .4s ease;
+}
+
+#whatsapp img:hover{
+    background: #FFC200;
+    padding: 12px 12px;
+}
+
+#maps img{
+    background: #E3A000;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 40px;
+    transition: all .4s ease;
+}
+
+#maps img:hover{
+    background: #FFC200;
+    padding: 12px 12px;
+}
+
+@media (max-width: 900px) {
+
+    .bar-redes{
+        position:absolute;
+        top:20%;
+        z-index: 100;
+        left: 0px;
+        height: 0px;
+        
+    }
+    
+    #instagram img{
+        background: #E3A000;
+        padding: 8px 8px;
+        text-decoration: none;
+        transition: all .4s ease;
+    }
+    #instagram img:hover{
+        background: #FFC200;
+        padding: 9px 9px;
+        
+    }
+    
+    #whatsapp img{
+        background: #E3A000;
+        padding: 8px 8px;
+        text-decoration: none;
+        transition: all .4s ease;
+    }
+    
+    #whatsapp img:hover{
+        background: #FFC200;
+        padding: 9px 9px;
+    }
+    
+    #maps img{
+        background: #E3A000;
+        padding: 8px 8px;
+        text-decoration: none;
+        transition: all .4s ease;
+    }
+    
+    #maps img:hover{
+        background: #FFC200;
+        padding: 9px 9px;
+    }
+    
+
+}

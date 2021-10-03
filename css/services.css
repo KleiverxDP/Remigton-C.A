@@ -1,0 +1,176 @@
+.fondo-services{
+
+    background-color: var(--blanco-color);
+}
+
+
+.services{
+
+    display:flex;
+    text-align: center;
+    
+    
+}
+
+.imagen-vigilante{
+
+    height: 500px;
+    width: 350px;
+    max-width: 600px;
+
+
+}
+
+.services-img{
+    width: 40%;
+}
+
+.services-titulo{
+
+    font-weight: 800;
+    font-size: 40px;
+    /*margin: 0 auto;*/
+    color: var(--azul-oscuro);
+    border-bottom: 3px solid var(--mostaza-color);
+    display: inline-block;
+}
+
+.services-empresa{
+
+    width: 60%;
+    
+}
+
+.services-texto{
+
+    margin: 10px 90px;
+    font-weight: 500;
+    color: var(--azul-claro);
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+.services-boton {
+    padding: 30px;
+  
+}
+
+
+
+.services-btn{
+
+    
+    background-color: var(--azul-oscuro);
+    
+    color: var(--blanco-color);
+    font-weight: 600;
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 2em;
+   
+
+}
+
+.services-btn:hover{
+
+    background-color: var(--mostaza-color);
+    transition: 0.8s;
+    color: var(--blanco-color);
+    
+}
+
+.horizontal-padding{
+
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.vertical-padding{
+
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+
+    .fondo-services{
+
+        background-color: var(--blanco-color);
+    }
+    
+    .services{
+
+        display: block;
+        text-align: center;
+        
+      
+    }
+    
+    .imagen-vigilante{
+    
+        height: 350px;
+        width: 250px;
+        max-width: 600px;
+        
+    }
+    
+    .services-titulo{
+    
+        font-weight: 800;
+        text-align: center;
+        font-size: 35px;
+        
+    }
+    
+    .services-empresa{
+
+        width: 100%;
+        
+    }
+
+    .services-img{
+
+    width: 100%;
+
+    }
+    .services-texto{
+        text-align: justify;
+        margin: 20px auto;
+        line-height: 1.5;
+          
+    }
+
+    .services-boton{
+        
+        padding: 30px 0px;
+
+    }
+    
+    .services-btn{
+    
+
+        background-color: var(--azul-oscuro);
+        color: var(--blanco-color);
+        font-weight: 600;
+        border: none;
+        font-size: 20px;
+        padding: 0.5em 2em;
+    
+    }
+    
+    .services-btn:hover{
+    
+        background-color: var(--mostaza-color);
+        transition: 0.5s;
+        
+    }
+
+    .horizontal-padding{
+
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    
+}

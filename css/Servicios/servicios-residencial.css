@@ -1,0 +1,81 @@
+.vigi-residencial-info{
+
+    justify-content: space-between;
+    display: flex;
+}
+
+.vigi-residencial-titulo{
+
+    font-size: 45px;
+    font-weight: 800;
+    border-bottom: 4px solid var(--mostaza-color);
+    display: inline-block;
+}
+
+.vigi-residencial-text{
+    padding: 80px 100px;
+    
+}
+
+.texto-residencial{
+    padding-top: 20px;
+    text-align: justify;
+    color: var(--azul-oscuro);
+}
+
+.vigi-residencial-text h1{
+    margin: 0;
+    color: var(--azul-oscuro);
+}
+
+.vigi-residencial-img{
+    
+    padding: 120px 80px;
+
+}
+
+.img-residencial{
+    width: 600px;
+    height: 320px;
+}
+
+@media (max-width: 900px) {
+    .vigi-residencial-info{
+
+        
+        display: block;
+    }
+    
+    .vigi-residencial-titulo{
+        font-size: 40px;
+        font-weight: 800;
+        border-bottom: 4px solid var(--mostaza-color);
+        display: inline-block;
+    }
+    
+    .vigi-residencial-text{
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .texto-comercial{
+        padding-top: 45px;
+      
+    }
+    
+    .vigi-residencial-text h1{
+        margin: 0;
+    }
+    
+    .vigi-residencial-img{
+        
+        padding: 10px 10px;
+        text-align: center;
+    
+    }
+    
+    .img-residencial{
+        width: 350px;
+        height: 350px;
+    }
+}

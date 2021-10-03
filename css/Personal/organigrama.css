@@ -1,0 +1,52 @@
+.organigrama{
+    text-align: center;
+}
+
+.organigrama-info {
+    text-align: center;
+}
+
+.organigrama-title{
+    
+    color: var(--azul-oscuro);
+    margin: 0;  
+    font-size: 40px;
+    font-weight: 800;
+    border-bottom: 3px solid var(--mostaza-color);
+    display: inline-block;  
+    padding-top: 30px;  
+    
+    
+}
+
+.organigrama-img{
+    padding:70px 0px;
+}
+.organigrama-img img{
+    
+    width: 700px;
+    height: 900px;
+}
+
+@media (max-width: 900px){
+
+    .organigrama-title{
+        color: var(--azul-oscuro);
+        margin: 0;  
+        font-size: 40px;
+        font-weight: 800;
+        border-bottom: 3px solid var(--mostaza-color);
+        display: inline-block;    
+        padding-top: 25px;
+        
+    }
+    .organigrama-img{
+        padding: 30px 0px;
+    }
+    .organigrama-img img{
+        
+        width: 350px;
+        height: 550px;
+    }
+
+}

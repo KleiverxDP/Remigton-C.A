@@ -1,0 +1,87 @@
+
+
+.horario-contacto{
+    color: var(--blanco-color);
+    text-align: center;
+    line-height: 1.5;
+
+}
+.fondo-horario-contacto{
+    
+    background: url(/img/Contactanos/bg-contacto-azul.jpg) no-repeat center/cover;
+    background-attachment: fixed ;
+}
+
+.horario-title-contacto{
+
+    font-weight: 800;
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+}
+
+.horario-admi-contacto{
+    color: #E3A000;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.horas{
+
+    color: #E3A000;
+
+}
+
+.horario-hora-contacto{
+
+    font-size: 20px;
+    
+}
+
+
+
+.horario-numeros-contacto{
+
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.redes-contacto{
+    font-size: 20px;
+}
+
+.negrita{
+
+    font-weight: 800;
+}
+
+.redes-contacto p{
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+
+    .horario-title-contacto{
+
+        font-weight: 800;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .horario-hora-contacto{
+
+        font-size: 18px;
+    }
+    
+    .horario-numeros-contacto{
+    
+        font-size: 18px;
+    }
+
+    .redes-contacto p{
+        margin: 0;
+    }
+
+
+}

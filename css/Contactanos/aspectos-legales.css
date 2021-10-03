@@ -1,0 +1,106 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-legales{
+
+    background: url(/img/Contactanos/05.bg-basamientos.png) no-repeat center/cover;
+    background-attachment: fixed;
+
+}
+
+.legales-info{
+    display: flex;
+    padding-top: 25px;
+}
+.legales-pgn{
+
+    
+    text-align: center;
+    color: var(--blanco-color);
+    
+}
+
+.legales-title{
+
+
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px solid var(--mostaza-color);
+    display: inline-block;
+
+}
+
+.legales-text{
+    text-align: justify;
+    margin: 0 180px;
+    font-weight: 500;
+    line-height: 2;
+    
+
+}
+
+.legales-img{
+
+    padding-left: 90px;
+    
+    
+
+}
+.img-legales{
+
+    width: 500px;
+    height: 400px;
+    max-width: 600px;
+}
+
+@media (max-width: 900px){
+
+    .legales-info{
+        display: block;
+        padding-top: 25px;
+    }
+    .legales-pgn{
+    
+        
+        text-align: center;
+        color: var(--blanco-color);
+        
+    }
+    
+    .legales-title{
+    
+        padding-top: 25px;
+        font-weight: 800;
+        font-size: 40px;
+        text-align: center;
+        border-bottom: 3px solid var(--mostaza-color);
+        display: inline;
+    
+    }
+    
+    .legales-text{
+        padding-top: 15px;
+        text-align: justify;
+        margin: 0 60px;
+        font-weight: 500;
+        line-height: 2;
+        
+    
+    }
+    
+    .legales-img{
+    
+        padding-top: 20px;
+        padding-left: 0;
+        
+    }
+    .img-legales{
+    
+        width: 350px;
+        height: 370px;
+        max-width: 600px;
+    }
+}

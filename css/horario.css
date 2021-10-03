@@ -1,0 +1,79 @@
+
+body {
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+
+.fondo-horario{
+
+    background: url(/img/fondo-horario.jpg) no-repeat center/cover;
+    background-attachment: fixed ;
+}
+
+.horario-title{
+
+    font-weight: 800;
+    text-align: center;
+    font-size: 45px;
+}
+
+.horario-admi{
+    color: #E3A000;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.horas{
+
+    color: #E3A000;
+
+}
+
+.horario-hora{
+
+    font-size: 20px;
+    
+}
+
+
+
+.horario-numeros{
+
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.negrita{
+
+    font-weight: 800;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .horario-title{
+
+        font-weight: 800;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .horario-hora{
+
+        font-size: 18px;
+    }
+    
+    .horario-numeros{
+    
+        font-size: 18px;
+    }
+
+
+
+
+}

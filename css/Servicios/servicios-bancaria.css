@@ -1,0 +1,88 @@
+
+.fondo-vigi-bancaria{
+    background: url(/img/Servicios/04.bg-vigilanciabancaria.png) no-repeat center/cover;
+    background-attachment: fixed;
+   
+}
+
+.vigi-bancaria-info{
+
+    justify-content: space-between;
+    display: flex;
+}
+
+.vigi-bancaria-titulo{
+    font-size: 45px;
+    font-weight: 800;
+    border-bottom: 4px solid var(--mostaza-color);
+    display: inline-block;
+}
+
+.texto-bancaria{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.vigi-bancaria-text{
+    padding: 80px 100px;
+    
+}
+
+.vigi-bancaria-text h1{
+    margin: 0;
+}
+
+.vigi-banciaria-img{
+    
+    padding: 0px 80px;
+    padding-top: 110px;
+}
+
+.img-bancaria{
+    width: 600px;
+    height: 320px;
+}
+
+@media (max-width: 900px) {
+
+    .vigi-bancaria-info{
+
+        justify-content: center;
+        display: block;
+    }
+    
+    .vigi-bancaria-titulo{
+        font-size: 40px;
+        font-weight: 800;
+        border-bottom: 4px solid var(--mostaza-color);
+        display: inline-block;
+    }
+    
+    .texto-bancaria{
+        padding-top: 45px;
+        text-align: justify;
+    }
+    
+    .vigi-bancaria-text{
+        padding: 60px 40px;
+        text-align: center;
+        
+    }
+    
+    .vigi-bancaria-text h1{
+        margin: 0;
+    }
+    
+    .vigi-banciaria-img{
+        
+        padding: 10px 10px;
+        text-align: center;
+    }
+    
+    .img-bancaria{
+        width: 350px;
+        height: 350px;
+    }
+
+
+}

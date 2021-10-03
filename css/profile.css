@@ -1,0 +1,73 @@
+.imagen{
+
+    height: 340px;
+    width: 310px;
+    max-width: 350px;
+    
+}
+
+.profile{
+
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.profile-title{
+
+    font-size: 50px;
+    font-weight: 800;
+    margin: 17px;
+    color: var(--blanco-color);
+}
+
+
+.fondo{
+
+    
+    background: url(/img/fondo-profile.png) no-repeat center/cover;
+    background-attachment:fixed;
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    } to{
+        background-position: top right;
+    }
+}
+
+@media (max-width: 900px) {
+
+ 
+
+    .imagen{
+
+        height: 230px;
+        width: 210px;
+        max-width: 350px;
+        
+    }
+    
+    .profile{
+    
+        text-align: center;
+        
+        
+    }
+    
+    .profile-title{
+    
+        font-size: 30px;
+        font-weight: 800;
+        margin: 17px;
+        color: var(--blanco-color);
+    }
+    
+   
+
+    
+   
+}
+

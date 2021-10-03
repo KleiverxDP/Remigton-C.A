@@ -1,0 +1,50 @@
+
+:root{
+
+--negro-color: #000814;
+--azul-oscuro: #001D3D;
+--azul-claro: #003566;
+--mostaza-color: #D29f12;
+--blanco-color: #FFFFFF;
+--gris-color: #E3E2E8;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Raleway', sans-serif;
+    padding-top: 90px;
+    color: #FFF;
+    line-height: 1.5;
+    
+}
+
+a{
+
+    text-decoration: none;
+    
+}
+
+.vertical-padding{
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.horizontal-padding{
+
+    padding-left: 30px;
+    padding-right: 80px;
+}
+
+@media (max-width: 900px) {
+
+body{
+    padding-top: 70px;
+}
+}
